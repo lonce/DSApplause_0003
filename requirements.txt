@@ -1,0 +1,12 @@
+setuptools
+numpy~=1.19.2
+soundfile
+librosa
+matplotlib
+seaborn
+tensorflow
+-e git+https://github.com/prashanthtr/paramManager#egg=paramManager
+-e git+https://github.com/prashanthtr/genericSynth#egg=genericSynth
+-e git+https://github.com/prashanthtr/nsjsonmanager#egg=nsjsonmanager
+-e git+https://github.com/prashanthtr/DSGenerator#egg=DSGenerator
+-e git+https://github.com/prashanthtr/tfrecordmanager#egg=tfrecordmanager

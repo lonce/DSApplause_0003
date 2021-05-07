@@ -1,0 +1,53 @@
+{
+
+	"soundname": "DSApplauseSynth",
+	"samplerate": 16000,
+	"chunkSecs": 2,
+	"soundDuration": 2,
+	"recordFormat": "params",
+	"params":
+	[
+		{
+            "user_pname": "Irregularity",
+            "user_minval": 0,
+            "user_maxval": 1,
+            "user_nvals": 27,
+            "user_doc": "map to natural synth irregularity param [.1, .8]",
+            "synth_pname": "irreg_exp",
+            "synth_minval": 0.1,
+            "synth_maxval": 0.8,
+            "synth_units": "natural"
+        },
+		{
+            "user_pname": "Rate Exp",
+            "user_minval": 0,
+            "user_maxval": 1,
+            "user_nvals": 10,
+            "user_doc": "map to rate_exp param [.5, 2.5]",
+            "synth_pname": "rate_exp",
+            "synth_minval": 0.5,
+            "synth_maxval": 2.5,
+            "synth_units": "natural"
+        },
+            {
+            "user_pname": "Num Clappers",
+            "user_minval": 0,
+            "user_maxval": 1,
+            "user_nvals": 8,
+            "user_doc": "map to numClappers param [1, 15]",
+            "synth_pname": "numClappers",
+            "synth_minval": 1,
+            "synth_maxval": 15,
+            "synth_units": "natural"
+        }
+	],
+	"fixedParams":
+	[
+		{
+		"user_doc": "evdur is .1 because that is the length of the clap files approximately",
+            "synth_pname": "evdur",
+            "synth_val": 0.1,
+            "synth_units": "natural"
+		}
+	]
+}

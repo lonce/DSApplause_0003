@@ -1,0 +1,16 @@
+.DS_Store
+
+dataset/
+NewDataset/
+
+parammanager/
+nsjsonmanager/
+tfrecordmanager/
+sonyganformat/
+
+genericsynth/
+dsgenerator/
+
+__pycache__/
+
+.ipynb_checkpoints/

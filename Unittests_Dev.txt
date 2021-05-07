@@ -1,0 +1,44 @@
+
+
+Test case reports:
+
+Filenames and Classnames
+  - To change the filename in config file, user needs to rename the file and the class name inside the file (that it exports).
+  - To change filename myPop_001 to myPop_002, then the user would change in 
+  1) config_file, 2) rename to myPop_002 3) and make the name of the class inside file to myPop_002. 
+
+Multipe formats generaton: 
+ - No error for multiple formats (Done)
+
+Fixed and variable parameters (Done)
+ - Fields need to be there, can be empty
+ - Even if there are no fixedparams, the field and the structure should still be there (for now)
+            {
+            "user_doc": "rate of Pop sounds",
+            "synth_pname": "rate_exp",
+            "synth_val": 0.5,
+            "synth_units": "norm"
+            }
+
+- Chaning number of chunks (done)
+ - The chunk durations are Floored. If the user specifies chunks 3 seconds in a total sound duration of 4 seconds, it produces 1 sound of 3 seconds
+
+Changing every single parameter (Testing for natural and norm?)
+ - Code Throws error when norm values are greater than 1
+
+
+Ongoing DEV:
+
+- Verifying size of tfrecords
+
+- Naming tfrecords as per nsynth
+nsynth-train.tfrecord-00072-of-00128  nsynth-valid.tfrecord-00059-of-00064
+nsynth-train.tfrecord-00073-of-00128  nsynth-valid.tfrecord-00060-of-00064
+nsynth-train.tfrecord-00074-of-00128  nsynth-valid.tfrecord-00061-of-00064
+nsynth-train.tfrecord-00075-of-00128  nsynth-valid.tfrecord-00062-of-00064
+
+DSSynth template
+ -  Visualizer for DSSynth development
+
+Logging config-file:
+ - Read me specifying options for each parameter 
